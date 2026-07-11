@@ -1,0 +1,8 @@
+{
+  "name": "@prometheus/uar-tui",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "bun src/index.tsx", "check": "tsc --noEmit" },
+  "dependencies": { "@opentui/solid": "latest", "solid-js": "latest" },
+  "devDependencies": { "@types/bun": "latest", "typescript": "latest" }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "uar-opentui",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev": "bun --cwd apps/tui dev",
+    "check": "bun --cwd apps/tui check",
+    "test": "bun --cwd apps/tui test"
+  }
+}
